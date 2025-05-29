@@ -19,14 +19,9 @@ namespace Random_Card
 
         private void getCardButton_Click(object sender, EventArgs e)
         {
-            // Create a Random object.
             Random rand = new Random();
 
-            // Get a random index.
-            int index = rand.Next(cardImageList.Images.Count);
-
-            // Display a card.
-            cardPictureBox.Image = cardImageList.Images[index];
         }
     }
 }
+           

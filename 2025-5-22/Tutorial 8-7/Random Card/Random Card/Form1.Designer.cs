@@ -39,17 +39,17 @@
             // cardPictureBox
             // 
             this.cardPictureBox.Image = global::Random_Card.Properties.Resources.Backface_Blue;
-            this.cardPictureBox.Location = new System.Drawing.Point(99, 13);
+            this.cardPictureBox.Location = new System.Drawing.Point(99, 12);
             this.cardPictureBox.Name = "cardPictureBox";
-            this.cardPictureBox.Size = new System.Drawing.Size(50, 70);
+            this.cardPictureBox.Size = new System.Drawing.Size(50, 65);
             this.cardPictureBox.TabIndex = 0;
             this.cardPictureBox.TabStop = false;
             // 
             // getCardButton
             // 
-            this.getCardButton.Location = new System.Drawing.Point(87, 102);
+            this.getCardButton.Location = new System.Drawing.Point(87, 94);
             this.getCardButton.Name = "getCardButton";
-            this.getCardButton.Size = new System.Drawing.Size(75, 36);
+            this.getCardButton.Size = new System.Drawing.Size(75, 33);
             this.getCardButton.TabIndex = 1;
             this.getCardButton.Text = "Get Random Card";
             this.getCardButton.UseVisualStyleBackColor = true;
@@ -116,13 +116,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(249, 150);
+            this.ClientSize = new System.Drawing.Size(249, 138);
             this.Controls.Add(this.getCardButton);
             this.Controls.Add(this.cardPictureBox);
             this.Name = "Form1";
             this.Text = "Random Card";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cardPictureBox)).EndInit();
             this.ResumeLayout(false);
 
